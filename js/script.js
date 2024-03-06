@@ -30,9 +30,9 @@ console.log(age)
 let totalPrice = kmPrice * lenght;
 
 if (age < 18){
-    totalPrice = ((kmPrice * lenght) - ((kmPrice * lenght) * smallDiscount / 100))
+    totalPrice = (totalPrice - (totalPrice * smallDiscount / 100));
 } else if (age > 65){
-    totalPrice = ((kmPrice * lenght) - ((kmPrice * lenght) * bigDiscount / 100))
+    totalPrice = (totalPrice - (totalPrice * bigDiscount / 100));
 }
 console.log(totalPrice)
 
