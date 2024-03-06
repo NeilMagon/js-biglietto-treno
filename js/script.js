@@ -36,7 +36,7 @@ if (age < 18){
 }
 console.log(totalPrice)
 
-alert ((`Il tuo biglietto costa:`) + (totalPrice.toFixed(2)) + `€`);
+alert (`Il tuo biglietto costa: ` + totalPrice.toFixed(2) + `€`);
 
 
 
